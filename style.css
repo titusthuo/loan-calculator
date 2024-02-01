@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.app-container {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.financial-calculator {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#calculateButton {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+#resultContainer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
